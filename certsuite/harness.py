@@ -36,7 +36,7 @@ from marionette_extension import install as marionette_install
 from mozfile import TemporaryDirectory
 from mozlog.structured import structuredlog, handlers, formatters, set_default_logger
 
-import adb_b2g
+import device_handler.adb_b2g
 import gaiautils
 import report
 
