@@ -1,0 +1,44 @@
+{
+  "name": "MCTS prototype",
+  "description": "MCTS app",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "developer": {
+    "name": "Device QA Team",
+    "url": "https://github.com/mozilla-b2g/fxos-certsuite"
+  },
+  "messages": [
+    { "notification": "/index.html" }
+  ],
+  "activities": {
+    "internal-system-engineering-mode": {
+      "filters": {},
+      "href": "/index.html",
+      "disposition": "window"
+    }
+  },
+  "icons": {
+    "120": "/style/icons/Uitest.png"
+  },
+  "permissions": {
+    "attention":"{}",
+    "audio-capture":"{}",
+    "backgroundservice":"{}",
+    "bluetooth":"{}",
+    "browser":"{}",
+    "contacts":"{'access': 'readwrite'}",
+    "desktop-notification":"{}",
+    "device-storage:sdcard":"{'access': 'readwrite'}",
+    "downloads":"{}",
+    "firefox-accounts":"{}",
+    "fmradio":"{}",
+    "geolocation":"{}",
+    "mobileconnection":"{}",
+    "mobilenetwork":"{}",
+    "power":"{}",
+    "secureelement-manage":"{}",
+    "settings":"{'access': 'readwrite'}",
+    "video-capture":"{}",
+    "wifi-manage":"{}"
+  }
+}
