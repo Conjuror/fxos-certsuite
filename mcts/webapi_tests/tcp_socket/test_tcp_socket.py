@@ -8,7 +8,7 @@ import threading
 
 import moznetwork
 
-from webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.semiauto import TestCase
 
 
 """Tests for the TCP Socket API available to privileged and certified

@@ -5,8 +5,8 @@
 import time
 from marionette.wait import Wait
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.telephony.telephony_test import TelephonyTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.telephony.telephony_test import TelephonyTestCommon
 
 
 class TestTelephonyOutgoingIncoming(TestCase, TelephonyTestCommon):

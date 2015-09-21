@@ -94,7 +94,7 @@ class BlockingPromptMixin(object):
         self.response = Queue.Queue()
 
     def get_response(self):
-        # TODO(ato): Use timeout from webapi_tests.semiauto.testcase
+        # TODO(ato): Use timeout from mcts.webapi_tests.semiauto.testcase
         return self.response.get(block=True, timeout=sys.maxint)
 
     def confirmation(self, question, image_path=""):

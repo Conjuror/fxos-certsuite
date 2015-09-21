@@ -11,9 +11,9 @@ import marionette
 # getter for shared logger instance
 from mozlog.structured import get_default_logger
 
-from certsuite.harness import check_adb
-from certsuite.harness import MarionetteSession
-from certsuite.cert import run_marionette_script
+from mcts.harness import check_adb
+from mcts.harness import MarionetteSession
+from mcts.certsuite.cert import run_marionette_script
 
 # https://gist.github.com/mozkeeler/3531c27239d92bc1535c
 # https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette/Marionette_JavaScript_Tests

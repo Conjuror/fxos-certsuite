@@ -4,8 +4,8 @@
 
 import time
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.mobile_message import MobileMessageTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.mobile_message import MobileMessageTestCommon
 
 
 class TestSmsIncomingDelete(TestCase, MobileMessageTestCommon):

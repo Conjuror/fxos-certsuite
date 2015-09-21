@@ -4,8 +4,8 @@
 
 import time
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.telephony import TelephonyTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.telephony import TelephonyTestCommon
 
 
 class TestTelephonyOutgoingRemoteHangup(TestCase, TelephonyTestCommon):

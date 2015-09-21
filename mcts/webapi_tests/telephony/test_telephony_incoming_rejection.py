@@ -3,8 +3,8 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.telephony import TelephonyTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.telephony import TelephonyTestCommon
 
 
 class TestTelephonyIncomingRejection(TestCase, TelephonyTestCommon):

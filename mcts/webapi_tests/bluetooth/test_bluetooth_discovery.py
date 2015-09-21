@@ -4,8 +4,8 @@
 
 import time
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.bluetooth import BluetoothTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.bluetooth import BluetoothTestCommon
 
 
 class TestBluetoothDiscovery(TestCase, BluetoothTestCommon):

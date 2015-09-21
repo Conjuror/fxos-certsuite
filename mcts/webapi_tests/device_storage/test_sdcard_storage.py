@@ -4,8 +4,8 @@
 
 import unittest
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.device_storage import DeviceStorageTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.device_storage import DeviceStorageTestCommon
 
 
 class TestSdcardStorage(TestCase, DeviceStorageTestCommon):

@@ -8,7 +8,7 @@ import unittest
 
 from moztest.adapters.unit import StructuredTestRunner
 
-from webapi_tests.semiauto import environment, server
+from mcts.webapi_tests.semiauto import environment, server
 
 
 def run(suite, logger, spawn_browser=True, verbosity=1, quiet=False,

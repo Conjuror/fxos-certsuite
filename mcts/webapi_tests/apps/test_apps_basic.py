@@ -3,8 +3,8 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import unittest
-from webapi_tests.semiauto import TestCase
-from webapi_tests.apps import AppsTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.apps import AppsTestCommon
 
 
 class TestAppsBasic(TestCase, AppsTestCommon):

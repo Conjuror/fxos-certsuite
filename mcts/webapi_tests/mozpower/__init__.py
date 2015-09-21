@@ -2,4 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-from webapi_tests.mozpower.test_power_screen_brightness import TestPowerManagement
+from mcts.webapi_tests.mozpower.test_power_screen_brightness import TestPowerManagement

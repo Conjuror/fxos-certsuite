@@ -10,8 +10,8 @@ import unittest
 
 from mozlog.structured import commandline
 
-from webapi_tests.semiauto import TestLoader
-from webapi_tests.semiauto import run
+from mcts.webapi_tests.semiauto import TestLoader
+from mcts.webapi_tests.semiauto import run
 
 
 test_loader = None

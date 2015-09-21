@@ -4,8 +4,8 @@
 
 import time
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.geolocation import GeolocationTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.geolocation import GeolocationTestCommon
 
 
 class TestGeolocationBasic(TestCase, GeolocationTestCommon):

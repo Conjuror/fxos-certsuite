@@ -4,7 +4,7 @@
 
 import time
 
-from webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.semiauto import TestCase
 
 
 class TestVibrateBasic(TestCase):

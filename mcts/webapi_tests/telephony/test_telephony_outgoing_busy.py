@@ -6,8 +6,8 @@ import time
 import unittest
 from marionette.wait import Wait
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.telephony import TelephonyTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.telephony import TelephonyTestCommon
 
 
 class TestTelephonyOutgoingBusy(TestCase, TelephonyTestCommon):

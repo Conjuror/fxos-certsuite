@@ -2,8 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.orientation import DeviceMotionTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.orientation import DeviceMotionTestCommon
 
 
 class TestDeviceMotion(TestCase, DeviceMotionTestCommon):

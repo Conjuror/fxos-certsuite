@@ -12,9 +12,9 @@ from marionette import Marionette
 from marionette.wait import Wait
 from marionette import errors
 
-from webapi_tests import certapp
-from webapi_tests.semiauto import environment
-from webapi_tests.semiauto.environment import InProcessTestEnvironment
+from mcts.webapi_tests import certapp
+from mcts.webapi_tests.semiauto import environment
+from mcts.webapi_tests.semiauto.environment import InProcessTestEnvironment
 
 
 """The default time to wait for a user to respond to a prompt or

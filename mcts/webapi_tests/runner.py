@@ -16,8 +16,8 @@ from fnmatch import fnmatch
 from mozdevice import DeviceManagerADB
 from mozlog.structured import commandline
 
-from webapi_tests import semiauto
-from webapi_tests.semiauto import environment
+from mcts.webapi_tests import semiauto
+from mcts.webapi_tests.semiauto import environment
 
 def iter_tests(start_dir, pattern="test_*.py"):
     """List available Web API tests and yield a tuple of (group, tests),
@@ -42,13 +42,14 @@ def iter_tests(start_dir, pattern="test_*.py"):
             relpath = os.path.relpath(path, start_dir)
             if relpath.endswith(".py"):
                 relpath = relpath[:-3]
-            name = "webapi_tests.%s" % relpath.replace(os.path.sep, ".")
+            name = "mcts.webapi_tests.%s" % relpath.replace(os.path.sep, ".")
             module = None
             try:
                 module = importlib.import_module(name)
             except ImportError:
                 # Module has import problems which shouldn't affect listing
                 # tests
+                # print "WebAPI module ImportError: %s" % name
                 continue
 
             members = inspect.getmembers(module)
@@ -124,7 +125,7 @@ def main():
 
     test_loader = semiauto.TestLoader(version=args.version)
     tests = test_loader.loadTestsFromNames(
-        map(lambda t: "webapi_tests.%s" % t, args.include or [g for g, _ in testgen]), None)
+        map(lambda t: "mcts.webapi_tests.%s" % t, args.include or [g for g, _ in testgen]), None)
     results = semiauto.run(tests,
                            logger=logger,
                            spawn_browser=not args.no_browser,

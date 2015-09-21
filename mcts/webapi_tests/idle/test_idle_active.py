@@ -5,8 +5,8 @@
 import unittest
 
 from marionette.wait import Wait
-from webapi_tests.semiauto import TestCase
-from webapi_tests.idle import IdleActiveTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.idle import IdleActiveTestCommon
 
 
 class TestIdleActive(TestCase, IdleActiveTestCommon):

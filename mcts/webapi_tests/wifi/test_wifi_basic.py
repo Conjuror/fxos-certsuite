@@ -4,8 +4,8 @@
 
 import time
 
-from webapi_tests.semiauto import TestCase
-from webapi_tests.wifi import WifiTestCommon
+from mcts.webapi_tests.semiauto import TestCase
+from mcts.webapi_tests.wifi import WifiTestCommon
 
 
 class TestWifiBasic(TestCase, WifiTestCommon):

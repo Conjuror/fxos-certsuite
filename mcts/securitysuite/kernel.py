@@ -10,7 +10,7 @@ import mozdevice
 # getter for shared logger instance
 from mozlog.structured import get_default_logger
 
-from certsuite.harness import check_adb
+from mcts.harness import check_adb
 
 # ######################################################################################################################
 # shared module functions

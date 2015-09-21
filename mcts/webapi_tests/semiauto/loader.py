@@ -20,7 +20,7 @@ class TestLoader(unittest.loader.TestLoader):
         try:
             version = kwargs.pop('version')
         except:
-            config_path = os.path.abspath(os.path.join(os.path.realpath(__file__), "../../../certsuite/config.json"))
+            config_path = os.path.abspath(os.path.join(os.path.realpath(__file__), "../../../config.json"))
             with open(config_path) as f:
                 config = json.load(f)
             version = config['version']
